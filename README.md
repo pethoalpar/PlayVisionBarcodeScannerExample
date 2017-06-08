@@ -1,4 +1,4 @@
-<h1>QR and barcode scanner eample with play vision library, in android</h1>
+<h1>QR and barcode scanner example with play vision library, in android</h1>
 
 <h2>Gradle</h2>
 
