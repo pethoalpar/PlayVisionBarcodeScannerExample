@@ -16,9 +16,9 @@
  
  ```java
 BarcodeDetector barcodeDetector = new BarcodeDetector
- .Builder(this)
- .setBarcodeFormats(Barcode.ALL_FORMATS)
- .build();
+      .Builder(this)
+      .setBarcodeFormats(Barcode.ALL_FORMATS)
+      .build();
 barcodeDetector.setProcessor(this);
 
 CameraSource cameraSource = new CameraSource.Builder(getApplicationContext(), barcodeDetector)
