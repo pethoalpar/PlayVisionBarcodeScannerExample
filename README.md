@@ -15,7 +15,10 @@
  <h2>Initialize variables</h2>
  
  ```java
-BarcodeDetector barcodeDetector = new BarcodeDetector.Builder(this).setBarcodeFormats(Barcode.ALL_FORMATS).build();
+BarcodeDetector barcodeDetector = new BarcodeDetector
+ .Builder(this)
+ .setBarcodeFormats(Barcode.ALL_FORMATS)
+ .build();
 barcodeDetector.setProcessor(this);
 
 CameraSource cameraSource = new CameraSource.Builder(getApplicationContext(), barcodeDetector)
